@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
-
+/* Definitions
+	Link colour: #326C86;
+	Link hover colour: #999;
+	Link active colour: #666
+*/
 * {
 	padding: 0px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -100,9 +104,15 @@ body {
 	text-align: center;
 	padding-bottom: 15px;
 }
+/* LINKS */
 .nav ul a{
 	text-decoration: none;
 	color: #326c86;
+	font-size: 11px;
+}
+.nav ul a:hover{
+	text-decoration: none;
+	color: #999;
 	font-size: 11px;
 }
 p{
